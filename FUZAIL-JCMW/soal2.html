@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./soal2.js"></script>
+    <title>Document</title>
+    <style>
+      thead,th,tr,td{
+        border: solid 1px grey;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="margin: 20px auto; text-align: center;">
+      <h1>Madding</h1>
+
+      <label for="UserName">Username: <input type="text" id="UserName" /></label><br /><br>
+      <label for="PassWord">Password: <input type="password" id="PassWord" /></label>
+      <br />
+      <br />
+      <input type="button" onclick="login()" value="login" />
+
+      <br>
+
+      <table style="margin: 20px auto; text-align: center;">
+        <thead>
+          <th>No</th>
+          <th>Kegiatan</th>
+          <th>Hari</th>
+          <th>Poster</th>
+          <th>Act</th>
+        </thead>
+        
+        <tbody id="Activities"></tbody>
+      </table>
+      <h1 id="LoginStatus"></h1>
+      <br>
+      <div id="Logout"></div>
+    </div>
+  </body>
+</html>
