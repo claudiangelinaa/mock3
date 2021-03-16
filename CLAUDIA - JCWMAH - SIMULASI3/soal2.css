@@ -1,0 +1,9 @@
+h1, .inputan, .inputan tr, .inputan td, .inputan th{
+    text-align: center;
+}
+
+.inputTabel, .inputTabel tr, .inputTabel td, .inputTabel th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
